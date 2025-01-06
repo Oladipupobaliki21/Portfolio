@@ -9,6 +9,7 @@ module.exports = {
       Outfit:["Outfit", "sans-serif"],
       Ovo:["Ovo", "serif"]
     }
+
   },
   plugins: [],
 }
