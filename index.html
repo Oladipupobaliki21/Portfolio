@@ -39,15 +39,15 @@
         </div>
         <!-- Mobile Menu -->
         <ul id="sideMenu"
-            class="flex md:hidden flex-col py-20 px-10 fixed bg-rose-950 top-0 -right-64 bottom-0 w-64 h-screen text-white z-50 gap-4 transition duration-500 font-Ovo">
+            class="flex md:hidden flex-col py-20 px-10 fixed bg-rose-950 top-0 -right-64 bottom-0 w-64 h-screen text-white z-50  transition duration-500 font-Ovo gap-4">
             <div class="absolute right-6 top-4" onclick="closeMenu()">
-                <img src="Images/close.svg" class="cursor-pointer">
+                <img src="Images/close-icon new.svg" class="cursor-pointer w-5">
             </div>
-            <li> <a href="#home" onclick="closeMenu()" class="text-white">Home</a></li>
-            <li><a href="#about" onclick="closeMenu()" class="text-white">About me</a></li>
-            <li><a href="#services" onclick="closeMenu()" class="text-white">Service</a></li>
-            <li><a href="#work" onclick="closeMenu()" class="text-white">Work</a></li>
-            <li><a href="#contact" onclick="closeMenu()" class="text-white">Contact me</a></li>
+            <li> <a href="#home" onclick="closeMenu()" class="text-white text-[25px]">Home</a></li>
+            <li><a href="#about" onclick="closeMenu()" class="text-white text-[25px]">About me</a></li>
+            <li><a href="#services" onclick="closeMenu()" class="text-white text-[25px]">Service</a></li>
+            <li><a href="#work" onclick="closeMenu()" class="text-white text-[25px]">Work</a></li>
+            <li><a href="#contact" onclick="closeMenu()" class="text-white text-[25px]">Contact me</a></li>
         </ul>
     </nav>
 
@@ -81,7 +81,7 @@
             </div>
 
             <div class="flex-1">
-                <p class="mb-10 max-w-2xl font-Ovo">I am an experienced Frontend Developer with over 6 Months of expertise in thefield.
+                <p class="mb-10 max-w-2xl font-Ovo">I am an experienced Frontend Developer with over 6 Months of expertise in the field.
                     Throughout my period of learning phase, I have had the priviledge of working on different projects
                     to tailor my experience.</p>
                 <ul class="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl">
@@ -228,6 +228,7 @@
         <form action="https://api.web3forms.com/submit" method="POST" class="max-w-2xl mx-auto">
             <div class="grid grid-cols-2 gap-2 mt-10 mb-8">
                 <input type="hidden" name="access_key"value="c2a537f6-d8f3-4596-a8c2-3d8e6f0adb00">
+                <input type="hidden" name="redirect" value="http://127.0.0.1:5500/index.html">
                 <input type="text" name="first_name" placeholder="Enter your name"
                     class=" bg-white border-gray-500 flex-1 p-3 border-[0.5px] outline-none rounded-md" required>
                 <input type="email"  name="email" class=" border-gray-500 flex-1 p-3 border-[0.5px] outline-none rounded-md"
@@ -251,7 +252,7 @@
             <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000">
                 <path
                     d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z" />
-            </svg> oladipupobilikisarike@gmail.com
+            </svg> <a href="mailto:oladipupobilikisarike@gmail.com">oladipupobilikisarike@gmail.com</a>
         </div>
         <div class="text-center sm:flex justify-between items-center border-t border-gray-500 mx-[10%] my-12 py-6">
             <p>© <span id="current-year">2024</span> HARYTECHS. All right reserved.</p>
@@ -260,7 +261,7 @@
                 <li><a
                         href="https://www.linkedin.com/in/oladipupo-bilikis-3745b325a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="Images/Linkedln.png" width="40px"></a>
                 </li>
-                <li><a href="https://wa.link/nx2jod"><img src="Images/whatsapp.png" width="40px"></a></li>
+                <!-- <li><a href="https://wa.link/nx2jod"><img src="Images/whatsapp.png" width="40px"></a></li> -->
             </ul>
         </div>
     </div>
